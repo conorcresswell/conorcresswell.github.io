@@ -27,12 +27,16 @@ h3 {
 p {
   font-family: Verdana,  Helvetica, sans-serif;
   font-size: 12px;
-  color: #FFF; }
+  color: #FFF;
+  text-align: right;
+  margin-right: 15px;
+  margin-top: -28px; }
 
 p2 {
   font-family: Verdana,  Helvetica, sans-serif;
   font-size: 12px;
-  color: #FFF; }
+  color: #FFF;
+  text-align: center; }
 
 p3 {
   font-family: Verdana,  Helvetica, sans-serif;
@@ -43,27 +47,27 @@ p3 {
 /*---------- EMBLEMS ----------*/
 /*-----------------------------*/
 .emblem_1 {
-  margin-top: 3px;
-  margin-left: -120px;
+  margin-top: 5px;
+  margin-left: -130px;
   background-color: white;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 25px; }
 
 .emblem_2 {
-  margin-top: 3px;
-  margin-left: -120px;
+  margin-top: 5px;
+  margin-left: -130px;
   background-color: white;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 25px; }
 
 .emblem_3 {
-  margin-top: 3px;
-  margin-left: -120px;
+  margin-top: 5px;
+  margin-left: -130px;
   background-color: white;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 25px; }
 
 /*----------------------------*/
@@ -620,11 +624,17 @@ body.menu-active nav#slide-menu ul {
   padding-left: 10%;
   padding-right: 10%; }
 
+.profile_pic {
+  position: relative;
+  top: 10px;
+  left: -15px; }
+
 .bio {
-  font-size: 10px;
-  top: 20px;
-  width: 80%;
-  height: 40px;
+  font-size: 8px;
+  left: 60px;
+  top: -40px;
+  width: 60%;
+  height: 30px;
   background-color: #FFFFFF;
   border-radius: 5px;
   position: relative;
