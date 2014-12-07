@@ -51,6 +51,89 @@ p3{
 
 }
 
+/*-----------------------------*/
+/*---------- EMBLEMS ----------*/
+/*-----------------------------*/
+
+.emblem_1 {
+	margin-top: 3px;
+	margin-left: -120px;
+	background-color: white;
+	width: 40px;
+	height:40px;
+	border-radius: 25px;
+
+}
+
+.emblem_2 {
+	margin-top: 3px;
+	margin-left: -120px;
+	background-color: white;
+	width: 40px;
+	height:40px;
+	border-radius: 25px;
+}
+
+.emblem_3 {
+	margin-top: 3px;
+	margin-left: -120px;
+	background-color: white;
+	width: 40px;
+	height:40px;
+	border-radius: 25px;
+}
+
+/*----------------------------*/
+/*---------- TITLES ----------*/
+/*----------------------------*/
+
+.sett_title {
+	margin: 15px;
+}
+
+.about_title {
+	margin: 15px;
+}
+
+.icon_title {
+	position: relative;
+	margin: 5px;
+}
+
+.graphbtn_main {
+	position: relative;
+	top: 250px;
+	left: 120px;
+}
+
+.addbtn_main {
+	position: relative;
+	top: 250px;
+	right: 160px;
+}
+
+.graph_title {
+	position: relative;
+	margin: 5px;
+	z-index: 2;
+}
+
+.map_title {
+	position: relative;
+	top: -125px;
+	z-index: 3;
+}
+
+
+/*------------------------------*/
+/*---------- SETTINGS ----------*/
+/*------------------------------*/
+
+.setting1 {
+	position: relative;
+}
+
+
 /*------------------------------------*/
 /*--------------- FORM ---------------*/
 /*------------------------------------*/
@@ -63,6 +146,7 @@ form {
   position: relative;
   right: -38px;
   bottom: -40px;
+  top: -10px;
 
 }
 
@@ -71,8 +155,8 @@ form {
   width: 240px;
   clear: both;
   position: relative;
+  top: -20px;
   right: -38px;
-  bottom: 20px;
 
 }
 
@@ -91,7 +175,7 @@ input {
   padding: 12px 12px 0 12px;
 }
 .account-info label {
-  color: #395870;
+  color: red;
   display: block;
   font-weight: bold;
   margin-bottom: 18px;
@@ -106,18 +190,18 @@ input {
   width: 100%;
 }
 .account-action {
-  background: #f0f0f2;
+  background: rgba(222, 0, 0, .2);
   border-top: 1px solid #c6c7cc;
   padding: 20px;
 }
 .account-action .btn {
 	padding-top: 8px;
-  background: linear-gradient(#49708f, #293f50);
+  background: red;
   border: 0;
   color: #fff;
   cursor: pointer;
   float: left;
-  height: 30px;
+  height: 28px;
   width:75px;
 }
 .account-action label {
@@ -162,6 +246,7 @@ h1, h2 {
 .Icon_1 {
 	position: absolute;
 	left: 35px;
+	z-index: -1;
 }
 
 .Icon_2 {
@@ -187,7 +272,7 @@ h1, h2 {
 .title {
 	position: relative;
 	top: 10px;
-	right: 12px;
+	left: 25px;
 
 }
 
@@ -738,10 +823,9 @@ overflow:scroll;
 position: relative;
 top: -10px;
 width: 120px;
-height: 30px;
+height: 38px;
 background-color: red;
-border-radius: 20px;
-border: 2px solid black;
+border-radius: 10px;
 margin-left: 95px;
 margin-bottom: 5px;
 }
@@ -751,8 +835,7 @@ position: relative;
 width: 150px;
 height: 50px;
 background-color: red;
-border-radius: 20px;
-border: 2px solid black;
+border-radius: 10px;
 margin-left: 80px;
 margin-bottom: 8px;
 }
@@ -762,8 +845,7 @@ position: relative;
 width: 150px;
 height: 50px;
 background-color: red;
-border-radius: 20px;
-border: 2px solid black;
+border-radius: 10px;
 margin-left: 80px;
 margin-bottom: 8px;
 }
@@ -773,12 +855,17 @@ position: relative;
 width: 100px;
 height: 40px;
 background-color: red;
-border-radius: 20px;
-border: 2px solid black;
+border-radius: 10px;
 margin-left: 105px;
 margin-bottom: 50px;
 }
 
+.text1 {
+	position: relative;
+	top: -23px;
+	left: 27px;
+
+}
 /*---------------------------------------------*/
 /*--------------- MENU CONTENT ----------------*/
 /*---------------------------------------------*/
@@ -905,6 +992,8 @@ body {
 }
 
 .option1{
+	position: relative;
+	top: -10px;
     float:left; 
     display:block;
 }
@@ -1007,6 +1096,8 @@ body {
 }
 
 .option2{
+	position: relative;
+	top: -10px;
     float:left; 
     display:block;
 }
@@ -1104,6 +1195,9 @@ body {
 }
 
 .option3{
+	position: relative;
+	left: -10px;
+	top: -10px;
     float:left; 
     display:block;
 }
@@ -1204,6 +1298,9 @@ body {
 }
 
 .option4{
+	position: relative;
+	left: -10px;
+	top: -10px;
     float:left; 
     display:block;
 }
@@ -1303,6 +1400,9 @@ body {
 }
 
 .option5{
+	position: relative;
+	left: -10px;
+	top: -10px;
     float:left; 
     display:block;
 }
