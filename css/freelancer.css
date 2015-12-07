@@ -9,7 +9,11 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
+}
+
+p2 {
+    font-size: 14px;
 }
 
 p.small {
@@ -34,7 +38,24 @@ h6 {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
+    color: #f7ae00;
 }
+
+h7{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+h8{
+    font-size: 48px; 
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
 
 hr.star-light,
 hr.star-primary {
@@ -46,6 +67,7 @@ hr.star-primary {
     text-align: center;
     opacity: 0;
 }
+
 
 hr.star-light:after,
 hr.star-primary:after {
@@ -191,9 +213,7 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-    outline: 0;
-    color: #2c3e50;
-}
+    outline: 0;}
 
 @media(max-width:767px) {
     section {
@@ -271,7 +291,7 @@ section.success a.active {
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
-    background: 0 0;
+    background: #f7ae00;
     transition: all .3s ease-in-out;
 }
 
@@ -353,7 +373,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #d88a00;
+    background-color: #f7ae00;
 }
 
 footer .footer-col {
