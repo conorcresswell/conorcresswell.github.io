@@ -3,9 +3,13 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+.avatar {
+  width: 15rem;
+}
 
-
-
+.character {
+    max-height:50px; 
+}
 header {
   padding: 154px 0 100px;
 }
@@ -62,15 +66,6 @@ a.btn-xl {
 	font-family: 'Open Sans',  Arial, sans-serif;
 }
 
-.jumbotron {
-  color: #f8f9fa;
-	background: url(../img/background-3.jpg);
-	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
-}
-
 .example {
 	color: #ffffff;
 	background-color: #F7AE00;
@@ -90,7 +85,7 @@ a.btn-xl {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 75vh;
 }
 
 .jumbotron-custom-3 {
@@ -105,8 +100,8 @@ a.btn-xl {
 h1 {
 	
 	font-family: 'Open Sans',  Arial, sans-serif;
-	font-weight: 700;	
-	color: #F7AE00;
+	font-weight: 400;	
+	color: #ffffff;
 }
 
 .brand {
@@ -126,10 +121,6 @@ h2 {
 
 hr {
 	border-color: #F7AE00;
-}
-
-.social-icons {
-	 padding: 5px;
 }
 
 /* Twitter */
@@ -154,15 +145,21 @@ text-decoration: none;
 text-decoration: none;
 }
 
-/* Behance */
-.fa-behance {
+/* Social Icons */
+.social-icon {
   background: #000000;
   color: #F7AE00;
+    max-height: 50px;
 }
 
-.fa-behance:hover {
+.social-icon:hover {
   color: #ffffff;
 text-decoration: none;
+}
+
+.fab {
+    
+    height:50px;
 }
 
 h3 {
@@ -414,17 +411,16 @@ h4 {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
-  top: 50%;
+  top: 80%;
   width: 100%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-   text-align: center;
+   text-align: left;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  	padding: 0 15px;
-  	
+  	padding: 0px 15px;
 	font-family: 'Open Sans',  Arial, sans-serif;
 	font-weight: 700;
 	
@@ -432,7 +428,6 @@ h4 {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 12px;
-	
   font-weight: 400;
   
 }
@@ -473,3 +468,16 @@ footer.bg-custom {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+
+.bg-primary {
+  background-image: url("https://images.unsplash.com/photo-1544560212-77289e5ea6cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Hero Animation Code */
+/* Hero Animation Code */
+/* Hero Animation Code */
+
+
