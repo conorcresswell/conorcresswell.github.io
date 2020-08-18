@@ -49,7 +49,7 @@ header {
 .bg-footer-custom {
 	color: #F7AE00;
 	background-color: #000000;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans',  Arial, sans-serif;
 	font-weight: 100;
 	letter-spacing: 2px;
 }
@@ -57,9 +57,9 @@ header {
 a.btn-xl {
 	color: #F7AE00;
 	background-color: #ffffff;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	
+	
+	font-family: 'Open Sans',  Arial, sans-serif;
 }
 
 .jumbotron {
@@ -103,8 +103,8 @@ a.btn-xl {
 }
 
 h1 {
-	letter-spacing: 3px;
-	font-family: 'Oswald', sans-serif;
+	
+	font-family: 'Open Sans',  Arial, sans-serif;
 	font-weight: 700;	
 	color: #F7AE00;
 }
@@ -117,10 +117,10 @@ h1 {
 	right: 0px;
 }
 h2 {
-	letter-spacing: 3px;
-	font-family: 'Oswald', sans-serif;
+	
+	font-family: 'Open Sans',  Arial, sans-serif;
 	font-weight: 700;
-	text-transform: uppercase;
+	
 	color: #F7AE00;
 }
 
@@ -166,11 +166,11 @@ text-decoration: none;
 }
 
 h3 {
-	font-family: 'Oswald', sans-serif;	
+	font-family: 'Open Sans',  Arial, sans-serif;	
 }
 
 h4 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans',  Arial, sans-serif;
 	font-size: 18px;
 }
 
@@ -193,10 +193,10 @@ h4 {
 }
 
 .rebuild-nav a {
-	letter-spacing: 3px;
-	font-family: 'Oswald', sans-serif;
+	
+	font-family: 'Open Sans',  Arial, sans-serif;
 	font-weight: 700;
-	text-transform: uppercase;
+	
 }
 
 .btn-lg {
@@ -206,15 +206,15 @@ h4 {
 .btn-primary {
 	border: none;
 	background-color: #F7AE00;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans',  Arial, sans-serif;
 }
 
 .btn-secondary {
 	color: #ffffff;
 	background-color: #F7AE00;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	
+	
+	font-family: 'Open Sans',  Arial, sans-serif;
 	border: none;
 	
 }
@@ -297,7 +297,7 @@ h4 {
   font-size: 16px;
   font-style: italic;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans',  Arial, sans-serif;
 }
 
 #portfolio * {
@@ -331,7 +331,7 @@ h4 {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans',  Arial, sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -424,17 +424,17 @@ h4 {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   	padding: 0 15px;
-  	letter-spacing: 3px;
-	font-family: 'Oswald', sans-serif;
+  	
+	font-family: 'Open Sans',  Arial, sans-serif;
 	font-weight: 700;
-	text-transform: uppercase;
+	
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 12px;
-	letter-spacing: 3px;
+	
   font-weight: 400;
-  text-transform: uppercase;
+  
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
@@ -465,4 +465,11 @@ h4 {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+}
+
+footer.bg-custom {
+    background-color: #F7AE00;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
