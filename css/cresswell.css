@@ -42,6 +42,7 @@ header {
 
 .section-contact{
 	padding: 5vw;
+    background-color:#''4747;
 	background-image: url("../img/BGS-Test-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -374,17 +375,14 @@ font-family: 'Open Sans',  Arial, sans-serif;
   color: #F7AE00;
 }
 
-@media (max-width: 600px) {
-    .close-modal {
-        font-size: 10px;
-    }
+.close-project {
+    color: #000000;
 }
 
-@media (max-width: 600px) {
-    .project-title {
-        font-size: 18px;
-    }
+.close-project:hover {
+  color: #F7AE00;
 }
+
 
 .portfolio-modal .close-modal .lr {
   /* Safari and Chrome */
@@ -501,7 +499,8 @@ footer.bg-custom {
 }
 
 .bg-primary {
-  background-image: url("../img/Brand/BGS-Test-1.jpg");
+background-colour:#ffffff;
+  background-image: url("../img/BGS-Test-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -518,12 +517,20 @@ footer.bg-custom {
     }
 
         .lead {
+        font-size:16px;
+    }
+    
+    p {
         font-size:14px;
     }
     
     h2 {
         font-size:
         18px;
+    }
+    
+    .mobile-center {
+        text-align: center;
     }
 
 }
@@ -539,7 +546,7 @@ footer.bg-custom {
     }
     
     .lead {
-        font-size:12px;
+        font-size:14px;
     }
     
     p {
