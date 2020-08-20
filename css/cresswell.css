@@ -43,7 +43,7 @@ header {
 .section-contact{
 	padding: 5vw;
     background-color:#''4747;
-	background-image: url("../img/BGS-Test-2.jpg");
+	background-image: url("../img/Brand/BGS-Test-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,32 +75,6 @@ a.btn-xl {
 .example {
 	color: #ffffff;
 	background-color: #F7AE00;
-}
-.jumbotron-custom-1 {
-	color: #f8f9fa;
-	background-image: url("https://images.unsplash.com/photo-1544560212-77289e5ea6cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40vh;
-}
-
-.jumbotron-custom-2 {
-	color: #f8f9fa;
-	background-image: url("https://images.unsplash.com/photo-1497048679117-1a29644559e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 75vh;
-}
-
-.jumbotron-custom-3 {
-	color: #FFFFFF;
-	background-image: url("../img/background-5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
 }
 
 h1 {
@@ -500,7 +474,7 @@ footer.bg-custom {
 
 .bg-primary {
 background-colour:#ffffff;
-  background-image: url("../img/BGS-Test-3.jpg");
+  background-image: url("../img/Brand/BGS-Test-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
