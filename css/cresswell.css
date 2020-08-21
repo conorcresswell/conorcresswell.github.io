@@ -508,6 +508,10 @@ background-colour:#ffffff;
     .mobile-center {
         text-align: center;
     }
+    
+    .avatar {
+        width: 200px;
+    }
 
 }
 
@@ -529,6 +533,7 @@ background-colour:#ffffff;
         font-size:12px;
     }
 }
+
 
 
 @media (max-height: 425px) {
