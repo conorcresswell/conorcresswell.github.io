@@ -10,18 +10,13 @@
 .character {
     max-height:50px; 
 }
-header {
-  padding: 154px 0 100px;
-}
-
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
-}
 
 .modal {
   overflow-y:auto;
+}
+
+.container-fluid {
+    
 }
 
 .main-title {
@@ -50,6 +45,8 @@ header {
   height: 50vh;
     color: #ffffff;
 }
+
+
 
 .bg-custom {
 	padding: 5vw;
@@ -472,6 +469,11 @@ footer.bg-custom {
     height:100vh;
 }
 
+.hero-copy {
+    height:100vh;
+    margin: 0 auto;
+}
+
 .bg-primary {
 background-colour:#ffffff;
   background-image: url("../img/Brand/BGS-Test-3.jpg");
@@ -512,11 +514,11 @@ background-colour:#ffffff;
 @media (max-width: 475px) {
     
     h1 {
-        font-size: 18px;
+        font-size: 24px;
     }
     
         h3 {
-        font-size: 16px;
+        font-size: 21px;
     }
     
     .lead {
@@ -526,6 +528,39 @@ background-colour:#ffffff;
     p {
         font-size:12px;
     }
+}
+
+
+@media (max-height: 425px) {
+    .section-contact {
+        height: 70vh;
+    }
+    
+    .hero-copy {
+    height:140vh;
+    margin: 0 auto;
+}
+    
+    .masthead {
+    height:140vh;
+}
+   
+}
+
+@media (max-height: 330px) {
+    .section-contact {
+        height: 80vh;
+    }
+    
+    .hero-copy {
+    height:200vh;
+    margin: 0 auto;
+}
+    
+    .masthead {
+    height:200vh;
+}
+   
 }
 
 .hero-animate-1 {
