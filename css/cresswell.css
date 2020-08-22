@@ -542,6 +542,13 @@ background-colour:#ffffff;
     }
 }
 
+@media (max-width: 768px) {
+
+
+}
+
+
+
 
 
 @media (max-height: 425px) {
@@ -572,6 +579,26 @@ background-colour:#ffffff;
     
     .masthead {
     height:200vh;
+}
+   
+}
+
+@media (max-width: 320px) {
+    .section-contact {
+        height: 46vh;
+    }
+    
+     .mobile-button {
+    margin: 15px  0px  0px  0px;
+}
+    
+    .hero-copy {
+    height:120vh;
+    margin: 0 auto;
+}
+    
+    .masthead {
+    height:120vh;
 }
    
 }
